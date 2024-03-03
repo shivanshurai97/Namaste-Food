@@ -2,21 +2,35 @@
 
 AppLayout
 
+/\*\*
+
 - Header
-  - Logo
-  - NavItems
-    - Home
-    - About
-    - Contact
-    - Cart
-    - Grocery (This vertical can be implemented to showcase code-splitting)
+- - Logo
+- - Nav Items
 - Body
-  - SearchInput
-  - TopRatedButton
-  - RestaurantContainer
-    - RestaurantCard(ResLogo,ResName,ResDetails)
-      - RestaurantMenu Page
+- - Search
+- - Restaurant Container
+- - Restaurant Card
 - Footer
-  - Copyright
-  - Links
-  - Address
+- - Copyright
+- - Links
+- - Address
+- - Contact
+- Redux Implementation
+- - Install @reduxjs/toolkit and react-redux
+- - Build our store
+- - Connect our store to our app
+- - Create a Slice (cartSlice)
+- - Dispatch an action
+- - Selector
+    \*/
+
+# About
+
+- Landing page with list of restaurants fetched from swiggy's live api
+- Different Components like Home, About, Contact, Cart
+- Restaurants Cards with basic details about the restaurant
+- Restaurant Menu Component with menu list of the restaurant
+- Functionality to add items to the cart for purchase
+- Redux store usage by creating slices
+- Usage of Jest and React Testing Library for Unit & Integration Testing
